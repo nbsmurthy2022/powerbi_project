@@ -1,0 +1,85 @@
+10.BI Portal App: next quater sales projections, projected order, spike orders etc.
+Telecom Customer Churn Model
+6. Autobackup and Auto-restore model
+1. Meta data Extraction
+2. System Health Monitoring
+9.Build an ETL Pipeline on Mongo Atlas
+9.Build an ETL Data Pipeline on AWS Cluster
+8.Segmenting Customer Datas
+7.Likely Candidates for a Sales Promotion
+3. Recommendation System for smart learning using numpy. 
+
+Utilities:
+9.developed Reports and Dashboards OLAP and OLTP
+10.Power Consumption prediction using smart meter data
+11.Smart Meters to reduce Theft cases
+12. field worker work moniter in taking meter readings
+13. Automated Backup sytem 
+
+
+
+Auto correction of e-Commerce catalogue using caffe
+Built with caffe CNN classifier. 
+4. Automated Attendance system
+Built with tensorflow CNN classifier and openCV
+5.Expenditure Management System- WAM
+
+in mongo atlas
+M10+ clusters that have enabled the BI Connector for Atlas to connect Power BI
+
+
+Dashboard Names:
+1.Revenue by year, month and quarter
+2. Sales
+3. Discounts and Promotions
+4. Cases, open cases, pending cases, closed cases and duartions
+5. orders, connections and disconections
+6. assets
+7. Accounts and billings
+
+implemented both Data analytics model, ML model
+discuss functional architecture and technical architecture
+
+developed modular based code
+
+
+
+
+Datamodel implemented in Dicle project for streaming dat:
+
+streaming data from smart meters from Kafka are processed by spark streaming API where we have lookup table in hive consists 
+of Service point information and corresponding smart meter id is going join with streaming data to produce sp-id and meter-id 
+save in hive table. on realtime basis this data is used in reports and dashboards
+
+Datamodel implemented in BSNL:
+
+The requested audit report had to have user level information, audit entries including accessed service, and time and resource utilisation details of each session
+Here are the fields we would need in the report, and their descriptions:
+
+ 
+
+Username: Username of the user in the company
+
+Full Name:  Name of the user
+
+Email id: Email id of the user
+
+Service: The big data service accessed by the user
+
+Access Time: The time when the user accessed that particular service
+
+CPU Usage: In case of YARN based runs, CPU consumed by the user
+
+RAM Usage: In case of YARN based runs, RAM consumed by the user
+
+refer: https://www.clearpeaks.com/advanced-auditing-in-hdp-and-cloudera/
+
+
+
+ML Churn Model in BSNL:
+
+developed models based on circle and each model devlped for one circle 
+ssa of circle is encoded using one hot encoding
+
+
+Code Auditing
